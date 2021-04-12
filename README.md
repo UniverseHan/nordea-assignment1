@@ -1,29 +1,27 @@
 # Assignment for Nordea by Hanwool
-run
-```
-npm start
+tested environments
+- node 12
+- npm 6
+
+
+#### run
+Install dependenceis before run. Run command on the project directory.
+```bash
+$ npm install
 ```
 
-### test
-run command below
-```
-npm test
+To start, run `npm start' in project directory.
+```bash
+$ npm start
 ```
 
-# Implementation
-1. Using typescript - Done.
-2. Add types or the
-  - code - could not understand 'what is the type of code?'
-  - type of variables - Done.
-3. Copy all the code for `band.memebers.currnet` with no changes
-  - I assume 
-    - copy all key and variables
-    - there are hidden requriement for example, type check and empty string, and minus value.
-    - not just copy.
-4. same as 3
-5. add new prop all
-  - copy all strings - DONE
-  - lowercase - done
-  - sort by age first by desc - DONE
-  - sort second by nane as asc - DONE
-6. 
+#### Test
+There are few test cases. However it does not cover all the possible scenarios. The `transform.test.ts` file contains a test case to test main functionality.
+
+To run test cases, just run
+```Bash
+$ npm test
+```
+
+#### More about project
+This project contains test cases and automatic pipeline scripts, so that it verify this program meet the requirement of assignment. You can see pipeline require on the github action tab and its result.

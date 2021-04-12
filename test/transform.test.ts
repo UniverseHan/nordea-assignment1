@@ -7,6 +7,4 @@ test('transform', () => {
   const bandObject: Band = parseBand(band);
 
   expect(bandObject).toEqual(expected);
-
-  // console.log(JSON.stringify(bandObject, null, 2));
 })
